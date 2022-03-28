@@ -1,7 +1,7 @@
 
 :80
 
-root * /home/projects/
+root * /home/projects/english10/dist/
 file_server
 
 reverse_proxy  /vscode/ 127.0.0.1:8000
