@@ -1,3 +1,7 @@
+
 :80
 
-reverse_proxy 127.0.0.1:8000
+root * /home/projects/
+file_server
+
+reverse_proxy  /vscode/ 127.0.0.1:8000
