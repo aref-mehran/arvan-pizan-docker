@@ -4,4 +4,6 @@
 root * /home/projects/
 file_server
 
-reverse_proxy  /vscode/ 127.0.0.1:8000
+handle_path /vscode/* {
+        reverse_proxy localhost:8000
+}
