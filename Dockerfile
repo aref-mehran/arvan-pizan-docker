@@ -5,7 +5,6 @@ RUN  wget https://code-server.dev/install.sh
 RUN  chmod +x ./install.sh
 RUN  ./install.sh
 ADD start.sh /home/
-ADD Caddyfile /home/
 
 RUN chmod +x /home/start.sh
 CMD ["/home/start.sh"]
