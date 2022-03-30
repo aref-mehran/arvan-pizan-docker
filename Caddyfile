@@ -1,9 +1,17 @@
 
 :80
 
-root * /home/projects/
+root * /home/projects
 file_server
 
 handle_path /vscode/* {
         reverse_proxy localhost:8000
+}
+
+
+git {
+	repo     https://github.com/aref-mehran/english10.git
+	branch   dist
+	interval 3000
+        path  english10
 }
