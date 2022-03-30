@@ -1,7 +1,7 @@
 
 :80
 
-root * /home/projects
+root * /home/projects/english10/
 file_server
 
 handle_path /vscode/* {
