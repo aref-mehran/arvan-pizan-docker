@@ -4,11 +4,12 @@ echo run.sh started ....
 cd /home/projects
 
 git clone --depth=1 -b dist https://github.com/aref-mehran/ionic-react-music-app.git
-cd ionic-react-music-app
+cd /home/projects/ionic-react-music-app
 watch -n 300 git pull &
 
+cd /home/projects/
 git clone --depth=1 -b dist https://github.com/aref-mehran/english10.git
-cd english10
+cd /home/projects/english10
 watch -n 300 git pull &
 
 cd /home/projects
