@@ -10,6 +10,13 @@ handle_path /vscode/* {
 
 
 git {
+	repo     https://github.com/aref-mehran/ionic-react-music-app.git
+	branch   dist
+	interval 3000
+        path  ionic-react-music-app
+}
+
+git {
 	repo     https://github.com/aref-mehran/english10.git
 	branch   dist
 	interval 3000
