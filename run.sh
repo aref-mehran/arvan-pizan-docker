@@ -8,6 +8,7 @@ cd /home/projects/ionic-react-music-app
 watch -n 300 git pull &
 
 cd /home/projects/english10
+git pull
 watch -n 300 git pull &
 
 cd /home/projects
