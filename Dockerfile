@@ -7,12 +7,9 @@ RUN  ./install.sh
 ADD start.sh /home/
 
 RUN chmod +x /home/start.sh
-
-RUN git clone --depth=1 https://github.com/aref-mehran/english10.git english10_master1
-RUN git clone --depth=1 https://github.com/aref-mehran/english10.git english10_master2
-RUN git clone --depth=1 https://github.com/aref-mehran/english10.git english10_master3
-RUN git clone --depth=1 https://github.com/aref-mehran/english10.git english10_master4
-
+RUN mkdir -p home/projects/
+WORKDIR home/projects/
+RUN git clone --depth=1 https://github.com/aref-mehran/english10.git english10_master
 CMD ["/home/start.sh"]
 
 EXPOSE 80
