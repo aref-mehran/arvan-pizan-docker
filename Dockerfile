@@ -7,8 +7,8 @@ RUN  ./install.sh
 ADD start.sh /home/
 
 RUN chmod +x /home/start.sh
-RUN mkdir -p home/projects/
-WORKDIR home/projects/
+RUN mkdir -p /home/projects/
+WORKDIR /home/projects/
 RUN  git clone --depth=1 -b dist https://github.com/aref-mehran/english10.git
 CMD ["/home/start.sh"]
 
