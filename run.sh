@@ -15,7 +15,7 @@ mkdir .well-known
 cp /home/projects/english10/dist/assetlinks.json .well-known/
 
 cd /home/projects/arvan-pizan-docker
-caddy run &
+caddy run 
 
 
 
