@@ -3,13 +3,13 @@ echo run.sh started ....
 
 cd /home/projects
 
-git clone --depth=1 -b dist https://github.com/aref-mehran/ionic-react-music-app.git
-cd /home/projects/ionic-react-music-app
-watch -n 300 git pull &
+# git clone --depth=1 -b dist https://github.com/aref-mehran/ionic-react-music-app.git
+# cd /home/projects/ionic-react-music-app
+# watch -n 300 git pull &
 
 cd /home/projects/english10
 git pull
-watch -n 300 git pull &
+# watch -n 300 git pull &
 
 cd /home/projects
 mkdir .well-known 
@@ -20,6 +20,6 @@ caddy run &
 
 
 
-code-server --port 8000 
+# code-server --port 8000 
 
 
