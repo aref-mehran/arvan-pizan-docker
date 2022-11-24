@@ -8,7 +8,6 @@ cd /home/projects
 # watch -n 300 git pull &
 
 cd /home/projects/english10
-git pull
 # watch -n 300 git pull &
 
 cd /home/projects
